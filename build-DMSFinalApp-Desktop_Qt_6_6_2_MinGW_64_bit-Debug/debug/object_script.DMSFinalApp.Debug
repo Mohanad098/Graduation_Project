@@ -1,0 +1,15 @@
+debug/configswidget.o
+debug/connectionwidget.o
+debug/datahandler.o
+debug/drivermonitoringwidget.o
+debug/main.o
+debug/mainwindow.o
+debug/readingswidget.o
+debug/systemcontrol.o
+debug/moc_configswidget.o
+debug/moc_connectionwidget.o
+debug/moc_datahandler.o
+debug/moc_drivermonitoringwidget.o
+debug/moc_mainwindow.o
+debug/moc_readingswidget.o
+debug/moc_systemcontrol.o

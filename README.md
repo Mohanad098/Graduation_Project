@@ -32,8 +32,3 @@ Navigate to the Jetson Nano application directory and follow the instructions in
 
 ### Windows Application
 Navigate to the Windows application directory and follow the instructions in the `DesktopApp/README.md`.
-
-
-
-## Contact
-For any inquiries or issues, please open an issue on GitHub or contact us at [anas.salah2402@gmail.com](mailto:anas.salah2402@gmail.com).

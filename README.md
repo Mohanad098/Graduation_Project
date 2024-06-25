@@ -20,11 +20,6 @@ The Driver Monitoring System is designed to enhance road safety by detecting and
 - Windows PC (with QT installed)
 - Required libraries and dependencies (listed in each application's README)
 
-### Cloning the Repository
-```bash
-git clone https://github.com/anassalah24/Graduation-Project-DMS.git
-cd Graduation-Project-DMS
-```
 
 ## Usage
 ### Jetson Nano Application

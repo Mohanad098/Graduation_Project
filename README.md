@@ -22,7 +22,7 @@ The Driver Monitoring System is designed to enhance road safety by detecting and
 
 ### Cloning the Repository
 ```bash
-git clone https://github.com/anassalah24/Graduation-Project-DMS.git
+git clone https://github.com/Mohanad098/Graduation_Project.git
 cd Graduation-Project-DMS
 ```
 
@@ -36,4 +36,4 @@ Navigate to the Windows application directory and follow the instructions in the
 
 
 ## Contact
-For any inquiries or issues, please open an issue on GitHub or contact us at [anas.salah2402@gmail.com](mailto:anas.salah2402@gmail.com).
+For any inquiries or issues, please open an issue on GitHub or contact us at [mohanad.h345@gmail.com].

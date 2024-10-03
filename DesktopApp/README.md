@@ -3,7 +3,7 @@
 ## Overview
 This application runs on a Windows PC and connects to the Jetson Nano application to view model outputs, frames, and configure the system. It is built using Qt 5.15, providing a user-friendly interface for monitoring and interacting with the driver monitoring system.
 
-![image](https://github.com/Mohanad098/Graduation-Project/assets/68183749/a54351e2-c595-4cde-9c29-27b693e45386)
+![image](https://github.com/anassalah24/Graduation-Project-DMS/assets/68183749/a54351e2-c595-4cde-9c29-27b693e45386)
 
 
 ## Features

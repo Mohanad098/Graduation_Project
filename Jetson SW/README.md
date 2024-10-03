@@ -14,7 +14,7 @@ This application runs on a Jetson Nano board and is responsible for real-time de
 ### Prerequisites
 - Jetson Nano with JetPack SDK installed (4.6.4)
 - Required libraries:
-![image](https://github.com/Mohanad098/Graduation-Project/assets/68183749/99495e6c-363f-4e51-99cb-dd7b5041624a)
+![image](https://github.com/anassalah24/Graduation-Project-DMS/assets/68183749/99495e6c-363f-4e51-99cb-dd7b5041624a)
 
 ### Setting Up the Environment
 1. Clone the repository:
@@ -39,17 +39,17 @@ This application runs on a Jetson Nano board and is responsible for real-time de
      mkdir -p /home/DMS/ModularCode
      mkdir -p /home/DMS/Videos
      ```
-![image](https://github.com/Mohanad098/Graduation-Project/assets/68183749/a6482c68-b49a-4233-9aee-af5dfef9cfd0)
+![image](https://github.com/anassalah24/Graduation-Project-DMS/assets/68183749/a6482c68-b49a-4233-9aee-af5dfef9cfd0)
 
    - Copy and paste all files inside `/Jetson SW` to `/home/DMS/ModularCode`:
      ```bash
      cp -r * /home/DMS/ModularCode
      ```
    - Get a copy of the folder "Modelsconfigs" from the owner of the repository and place it inside `/home/DMS/ModularCode`.
-![image](https://github.com/Mohanad098/Graduation-Project/assets/68183749/f8ebac9b-d75a-4934-a411-f7e5455af8e8)
+![image](https://github.com/anassalah24/Graduation-Project-DMS/assets/68183749/f8ebac9b-d75a-4934-a411-f7e5455af8e8)
 
    - Get a copy of the models engine files from the owner of the repository and place it inside `/home/DMS/ModularCode/include`
-![image](https://github.com/Mohanad098/Graduation-Project/assets/68183749/ce3867cd-4807-4dbb-b5e2-eb462f91533d)
+![image](https://github.com/anassalah24/Graduation-Project-DMS/assets/68183749/ce3867cd-4807-4dbb-b5e2-eb462f91533d)
 
    - Open a terminal inside `/home/DMS/ModularCode` and write the following commands:
      ```bash

@@ -43,12 +43,9 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
+win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../../../../../opencv/build/x64/vc14/release/ -lopencv_world451
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../../../../../opencv/build/x64/vc14/debug/ -lopencv_world451d
 
+INCLUDEPATH += $$PWD/../../../../../opencv/build/include
 
-
-
-win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../../../../../../../opencv/opencv_v451/opencv/build/x64/vc14/lib/ -lopencv_world451
-else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../../../../../../../opencv/opencv_v451/opencv/build/x64/vc14/lib/ -lopencv_world451d
-
-INCLUDEPATH += $$PWD/../../../../../../../opencv/opencv_v451/opencv/build/include
-DEPENDPATH += $$PWD/../../../../../../../opencv/opencv_v451/opencv/build/include
+LIBS += -LC:/opencv/build/x64/vc14/lib -lopencv_world451

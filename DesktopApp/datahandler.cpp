@@ -28,7 +28,7 @@ DataHandler::~DataHandler() {
 void DataHandler::onDataReady1() {
     frameReceivedSinceLastCheck = true;
     QDataStream in(tcpSocket1);
-    in.setVersion(QDataStream::Qt_6_6);
+    in.setVersion(QDataStream::Qt_5_15);
 
     quint32 imgSize;
     if (tcpSocket1->bytesAvailable() < (int)sizeof(quint32))
